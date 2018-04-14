@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:converters="clr-namespace:Experimenting.ViewModels"
              x:Name="NuevoEstudianteView"
              x:Class="Experimenting.Views.NuevoEstudianteView">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:GradeToPercentConverter x:Key="GradeToPercent"></converters:GradeToPercentConverter>
+        </ResourceDictionary>
+    </ContentPage.Resources>
     
     <StackLayout>
         <Entry Placeholder="Enter ID" Text="{Binding NuevoEstudiante.ID}"/>
         <Entry Placeholder="Nombre" Text="{Binding NuevoEstudiante.Nombre}"/>
         <Entry Placeholder="Nota" Text="{Binding NuevoEstudiante.Nota}"/>
-        <Entry Placeholder="Nombre" Text="{Binding NuevoEstudiante.Foto}"/>
+        <Entry Placeholder="Foto" Text="{Binding NuevoEstudiante.Foto}"/>
 
         <Button Text="Aceptar" Command="{Binding AgregarNuevoEstudianteCommand}"/> 
     </StackLayout>

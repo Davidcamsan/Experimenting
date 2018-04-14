@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{387F6588-BE54-43A2-8BF3-6A4B9906008A}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Experimenting/Views/MainTabContainer.xaml">
+  <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="Experimenting/ViewModels/EstudianteViewModel.cs" Line="117" Column="81" />
-      <File FileName="Experimenting/Views/NuevoEstudianteView.xaml" Line="13" Column="84" />
-      <File FileName="Experimenting/Views/NuevoEstudianteView.xaml.cs" Line="13" Column="64" />
-      <File FileName="Experimenting/Views/MainTabContainer.xaml" Line="9" Column="57" />
+      <File FileName="Experimenting/Views/EstudianteEspecificoView.xaml" Line="50" Column="1" />
+      <File FileName="Experimenting/Models/EstudianteModel.cs" Line="20" Column="54" />
+      <File FileName="Experimenting/Models/TareasModel.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

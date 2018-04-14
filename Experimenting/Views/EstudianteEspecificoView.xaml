@@ -1,12 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:converters="clr-namespace:Experimenting.ViewModels"
              x:Name="EstudianteEspecificoView"
              x:Class="Experimenting.Views.EstudianteEspecificoView">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:GradeToPercentConverter x:Key="GradeToPercent"></converters:GradeToPercentConverter>
+        </ResourceDictionary>
+    </ContentPage.Resources>
 
-    <StackLayout>
-        <Label Text="{Binding EstudianteActual.ID}"/>
-        <Label Text="{Binding EstudianteActual.Nombre}"/>
-        <Label Text="{Binding EstudianteActual.Nota}"/>
+    <StackLayout Orientation="Vertical">
+
+        <Label Text="{Binding EstudianteActual.Foto}" HorizontalOptions="StartAndExpand"/>
+        
+        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+            <Label Text="ID: "/>
+            <Label Text="{Binding EstudianteActual.ID}"/>  
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand"> 
+            <Label Text="Nombre: "/>
+            <Label Text="{Binding EstudianteActual.Nombre}"/>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand"> 
+            <Label Text="Nota: "/>
+            <Label Text="{Binding EstudianteActual.Nota, Converter={StaticResource GradeToPercent}}"/>
+        </StackLayout>
+
+        <StackLayout>
+            <ListView x:Name="lstTareas"
+                      ItemsSource="{Binding EstudianteActual.lstTareas}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="{Binding ID}"/>
+                                <Label Text="{Binding Archivo}"/>
+                            </StackLayout>
+                        </ViewCell>   
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+
     </StackLayout>
 </ContentPage>
