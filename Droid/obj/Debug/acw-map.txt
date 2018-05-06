@@ -2,6 +2,14 @@ Experimenting.Droid.MainActivity, Experimenting.Droid;md578fb0316823793d70e2d566
 Experimenting.Droid.MainActivity, Experimenting.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md578fb0316823793d70e2d56676e2816fa.MainActivity
 Experimenting.Droid.MainActivity;md578fb0316823793d70e2d56676e2816fa.MainActivity
 experimenting.droid.MainActivity;md578fb0316823793d70e2d56676e2816fa.MainActivity
+Experimenting.Droid.MainApplication, Experimenting.Droid;md578fb0316823793d70e2d56676e2816fa.MainApplication
+Experimenting.Droid.MainApplication, Experimenting.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md578fb0316823793d70e2d56676e2816fa.MainApplication
+Experimenting.Droid.MainApplication;md578fb0316823793d70e2d56676e2816fa.MainApplication
+experimenting.droid.MainApplication;md578fb0316823793d70e2d56676e2816fa.MainApplication
+Plugin.Media.MediaPickerActivity, Plugin.Media;md5dff1bed22da39876f271fd39214b8f60.MediaPickerActivity
+Plugin.Media.MediaPickerActivity, Plugin.Media, Version=3.1.3.0, Culture=neutral, PublicKeyToken=null;md5dff1bed22da39876f271fd39214b8f60.MediaPickerActivity
+Plugin.Media.MediaPickerActivity;md5dff1bed22da39876f271fd39214b8f60.MediaPickerActivity
+plugin.media.MediaPickerActivity;md5dff1bed22da39876f271fd39214b8f60.MediaPickerActivity
 Android.Support.V4.Widget.SearchViewCompat/IOnCloseListenerImplementor, Xamarin.Android.Support.Compat;mono.android.support.v4.widget.SearchViewCompat_OnCloseListenerImplementor
 Android.Support.V4.Widget.SearchViewCompat+IOnCloseListenerImplementor, Xamarin.Android.Support.Compat, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.widget.SearchViewCompat_OnCloseListenerImplementor
 Android.Support.V4.Widget.SearchViewCompat.IOnCloseListenerImplementor;mono.android.support.v4.widget.SearchViewCompat_OnCloseListenerImplementor

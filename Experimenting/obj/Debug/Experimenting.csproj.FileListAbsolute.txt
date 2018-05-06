@@ -18,3 +18,11 @@
 /Users/carmen/Projects/Experimenting/Experimenting/obj/Debug/Experimenting.Views.ListaDeEstudiantesView.xaml.g.cs
 /Users/carmen/Projects/Experimenting/Experimenting/obj/Debug/Experimenting.Views.EstudianteEspecificoView.xaml.g.cs
 /Users/carmen/Projects/Experimenting/Experimenting/obj/Debug/Experimenting.Views.NuevoEstudianteView.xaml.g.cs
+/Users/carmen/Projects/Experimenting/Experimenting/obj/Debug/Experimenting.csprojResolveAssemblyReference.cache
+/Users/carmen/Projects/Experimenting/Experimenting/bin/Debug/Plugin.Media.Abstractions.dll
+/Users/carmen/Projects/Experimenting/Experimenting/bin/Debug/Plugin.Media.dll
+/Users/carmen/Projects/Experimenting/Experimenting/bin/Debug/Plugin.Media.Abstractions.pdb
+/Users/carmen/Projects/Experimenting/Experimenting/bin/Debug/Plugin.Media.Abstractions.xml
+/Users/carmen/Projects/Experimenting/Experimenting/bin/Debug/Plugin.Media.pdb
+/Users/carmen/Projects/Experimenting/Experimenting/bin/Debug/Plugin.Media.xml
+/Users/carmen/Projects/Experimenting/Experimenting/obj/Debug/Experimenting.Views.CapturarEstudianteView.xaml.g.cs

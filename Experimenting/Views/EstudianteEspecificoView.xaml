@@ -14,19 +14,21 @@
 
         <Label Text="{Binding EstudianteActual.Foto}" HorizontalOptions="StartAndExpand"/>
         
-        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
-            <Label Text="ID: "/>
-            <Label Text="{Binding EstudianteActual.ID}"/>  
-        </StackLayout>
+        <StackLayout HorizontalOptions="CenterAndExpand"> 
+            <StackLayout Orientation="Horizontal">
+                <Label Text="ID: "/>
+                <Label Text="{Binding EstudianteActual.ID}"/>  
+            </StackLayout>
 
-        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand"> 
-            <Label Text="Nombre: "/>
-            <Label Text="{Binding EstudianteActual.Nombre}"/>
-        </StackLayout>
+            <StackLayout Orientation="Horizontal"> 
+                <Label Text="Nombre: "/>
+                <Label Text="{Binding EstudianteActual.Nombre}"/>
+            </StackLayout>
 
-        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand"> 
-            <Label Text="Nota: "/>
-            <Label Text="{Binding EstudianteActual.Nota, Converter={StaticResource GradeToPercent}}"/>
+            <StackLayout Orientation="Horizontal"> 
+                <Label Text="Nota: "/>
+                <Label Text="{Binding EstudianteActual.Nota, Converter={StaticResource GradeToPercent}}"/>
+            </StackLayout>
         </StackLayout>
 
         <StackLayout>

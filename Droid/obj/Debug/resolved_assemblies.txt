@@ -4,6 +4,11 @@
 /Users/carmen/Projects/Experimenting/Droid/obj/Debug/android/assets/Java.Interop.dll
 /Users/carmen/Projects/Experimenting/Droid/obj/Debug/android/assets/Mono.Android.dll
 /Users/carmen/Projects/Experimenting/Droid/obj/Debug/android/assets/mscorlib.dll
+/Users/carmen/Projects/Experimenting/Droid/obj/Debug/android/assets/Plugin.CurrentActivity.dll
+/Users/carmen/Projects/Experimenting/Droid/obj/Debug/android/assets/Plugin.Media.Abstractions.dll
+/Users/carmen/Projects/Experimenting/Droid/obj/Debug/android/assets/Plugin.Media.dll
+/Users/carmen/Projects/Experimenting/Droid/obj/Debug/android/assets/Plugin.Permissions.Abstractions.dll
+/Users/carmen/Projects/Experimenting/Droid/obj/Debug/android/assets/Plugin.Permissions.dll
 /Users/carmen/Projects/Experimenting/Droid/obj/Debug/android/assets/System.Core.dll
 /Users/carmen/Projects/Experimenting/Droid/obj/Debug/android/assets/System.dll
 /Users/carmen/Projects/Experimenting/Droid/obj/Debug/android/assets/System.Runtime.dll
@@ -34,6 +39,7 @@
 /Users/carmen/Projects/Experimenting/Droid/obj/Debug/android/assets/System.Threading.Tasks.dll
 /Users/carmen/Projects/Experimenting/Droid/obj/Debug/android/assets/System.Globalization.dll
 /Users/carmen/Projects/Experimenting/Droid/obj/Debug/android/assets/System.Collections.dll
+/Users/carmen/Projects/Experimenting/Droid/obj/Debug/android/assets/System.IO.dll
 /Users/carmen/Projects/Experimenting/Droid/obj/Debug/android/assets/System.Linq.dll
 /Users/carmen/Projects/Experimenting/Droid/obj/Debug/android/assets/System.Threading.dll
 /Users/carmen/Projects/Experimenting/Droid/obj/Debug/android/assets/System.Collections.Concurrent.dll
@@ -50,6 +56,5 @@
 /Users/carmen/Projects/Experimenting/Droid/obj/Debug/android/assets/System.ComponentModel.dll
 /Users/carmen/Projects/Experimenting/Droid/obj/Debug/android/assets/System.Xml.ReaderWriter.dll
 /Users/carmen/Projects/Experimenting/Droid/obj/Debug/android/assets/System.Linq.Expressions.dll
-/Users/carmen/Projects/Experimenting/Droid/obj/Debug/android/assets/System.IO.dll
 /Users/carmen/Projects/Experimenting/Droid/obj/Debug/android/assets/System.Dynamic.Runtime.dll
 /Users/carmen/Projects/Experimenting/Droid/obj/Debug/android/assets/System.Text.RegularExpressions.dll

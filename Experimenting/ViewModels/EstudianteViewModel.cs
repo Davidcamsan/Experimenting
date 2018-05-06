@@ -57,7 +57,7 @@ namespace Experimenting.ViewModels
             }
         }
 
-        //creando espacio para agregar nuevo estudiante
+        //espacio para agregar nuevo estudiante
         private EstudianteModel _NuevoEstudiante = new EstudianteModel();
 
         public EstudianteModel NuevoEstudiante{

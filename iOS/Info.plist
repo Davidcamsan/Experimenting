@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
@@ -42,5 +42,13 @@
 	</array>
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/AppIcon.appiconset</string>
+	<key>&lt;key&gt;NSCameraUsageDescription&lt;/key&gt;</key>
+	<string>&lt;string&gt;This app needs access to the camera to take photos.&lt;/string&gt;</string>
+	<key>&lt;key&gt;NSPhotoLibraryUsageDescription&lt;/key&gt;</key>
+	<string>&lt;string&gt;This app needs access to photos.&lt;/string&gt;</string>
+	<key>&lt;key&gt;NSMicrophoneUsageDescription&lt;/key&gt;</key>
+	<string>&lt;string&gt;This app needs access to microphone.&lt;/string&gt;</string>
+	<key>&lt;key&gt;NSPhotoLibraryAddUsageDescription&lt;/key&gt;</key>
+	<string>&lt;string&gt;This app needs access to the photo gallery.&lt;/string&gt;</string>
 </dict>
 </plist>
